@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import ContentSection from './components/ContentSection/ContentSection';
@@ -11,7 +11,7 @@ import './App.css';
 
 
 const App = () => {
-    const [] = useState([]);
+
 
 
     return (
