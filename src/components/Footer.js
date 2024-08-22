@@ -180,7 +180,7 @@ function Footer() {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2024 Copyright:
-        <a className='text-white' href='#'>
+        <a className='text-white' href='/'>
           EliteMart.com
         </a>
       </div>
