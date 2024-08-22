@@ -5,7 +5,6 @@ import {
   MDBContainer,
   MDBRow,
   MDBCol,
-  MDBIcon,
   MDBInput
 }
 from 'mdb-react-ui-kit';
@@ -20,7 +19,7 @@ function Login() {
           <div className='d-flex flex-row ps-5 pt-5'>
             {/*<MDBIcon fas icon="logo-svg.svg" style={{ color: '#709085' }}/>*/}
             {/*<img src='logo-svg.svg' alt='loading' className='logo'></img>*/}
-            <img src={require('./assets/logo-png.png')} alt='Your Image' className='logo'></img>
+            <img src={require('./assets/logo-png.png')} alt='loading' className='logo'></img>
             <span className="h1 fw-bold mb-0"></span>
           </div>
 
@@ -41,7 +40,7 @@ function Login() {
 
         <MDBCol sm='6' className='d-none d-sm-block px-0'>
           <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
-            alt="Login image" className="w-100" style={{objectFit: 'cover', objectPosition: 'left'}} />
+            alt="Loading" className="w-100" style={{objectFit: 'cover', objectPosition: 'left'}} />
         </MDBCol>
 
       </MDBRow>
