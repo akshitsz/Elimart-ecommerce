@@ -19,10 +19,10 @@ const App = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<ContentSection />} /> {/* Default route (e.g., home page) */}
-                <Route path="/aboutus" element={<AboutUs />} />
-                <Route path="/questions" element={<Questions />} /> 
-                <Route path="/login" element={<Login />} />
-                <Route path="/productpage" element={<ProductPage />} />
+                <Route path="/Aboutus" element={<AboutUs />} />
+                <Route path="/Questions" element={<Questions />} /> 
+                <Route path="/Login" element={<Login />} />
+                <Route path="/ProductPage" element={<ProductPage />} />
             </Routes>
             <Footer />
         </Router>
